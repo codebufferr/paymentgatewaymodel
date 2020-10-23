@@ -1,0 +1,120 @@
+.body{
+     margin: 0%;
+     padding: 0%;
+     font-family: sans-serif;
+}
+.hero{
+     height: 100%;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     position: absolute;
+     background-color:rgb(15, 14, 14);
+}
+.form-box{
+     width: 400px;
+     height: 500px;
+     position: relative;
+     margin: 5% auto;
+     padding: 5px ;
+     background-color:whitesmoke;
+     overflow: hidden;
+
+}
+.button-box{
+     width: 210px;
+     margin: 35px auto;
+     position: relative;
+     box-shadow: 0 0 20px 9px #446eb1;
+     border-radius: 30px;
+
+}
+.toggle-btn{
+     padding: 10px 30px;
+     cursor: pointer;
+     background: transparent;
+     border: 0;
+     outline:none;
+     position: relative;
+
+}
+#btn{
+     top: 0%;
+     left: 0%;
+     position: absolute;
+     width: 100px;
+     height: 40px;
+     background: linear-gradient(to right,#69d49f,#446eb1);
+     border-radius: 28px;
+     transition: .5s;
+
+}
+.icons{
+     margin: 30px auto;
+     text-align: center;
+
+}
+.icons img{
+     width: 30px;
+     margin: 0 12px ;
+     box-shadow: 0 0 20px 0 #446eb1 ;
+     cursor: pointer;
+     border-radius: 50%;
+
+
+}
+.input{
+     top:180px;
+     position:absolute;
+     width: 200px;
+     transition: .5s;
+
+}
+.input-field{
+     
+     width: 150%;
+     padding: 10px 0;
+     margin: 5px 0;
+     border-left: 20px;
+     border-top: 20px;
+     border-right: 20px;
+     border-bottom: 2px solid rgb(54, 54, 52);
+     outline: none;
+     background: transparent;
+    
+     
+}
+.submit-btn{
+     width: 100%;
+     padding: 10px 20px ;     
+     margin: 35px auto;
+     cursor: pointer;
+     display: block;
+     margin: auto;
+     background: linear-gradient(to right,#69d49f,#446eb1);
+     border: 0;
+     outline: none;
+     border-radius: 30px;
+     
+     
+}
+.checkbox{
+     margin: 25px 10px 25px 0;
+
+}
+.span{
+     color: #446eb1;
+     font-size: 15px;
+     bottom: 65px;
+     position: absolute;
+}
+#login{
+     left: 50px;
+
+}
+#register{
+     left: 450px;
+}
+.psw{
+     text-align: center;
+}

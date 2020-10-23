@@ -1,0 +1,113 @@
+body{
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     font-family: sans-serif;
+   
+    
+}
+.container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+.container .box{
+     position: relative;
+     width: 350px;
+     padding: 40px;
+     background: #ffffff;
+     box-shadow: 0 5px 15px rgba(34, 16, 16, 0.1);
+     border-radius: 4px;
+     margin: 30px;
+     box-sizing: border-box;
+     overflow: hidden;
+     text-align: center;
+
+}
+.container .box .icon{
+     position: relative;
+     width: 80px;
+     height: 80px;
+     color: #ffffff;
+     background: #000000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
+     border-radius: 50%;
+     font-size: 30px;
+     font-weight: 600;
+     transition: 1s;
+
+}
+.container .box:nth-child(1) .icon{
+     box-shadow:0 0 0 0 rgb(102, 37, 155);
+     background: rgba(128, 56,187);
+     
+}
+.container .box:nth-child(1):hover .icon{
+     box-shadow:0 0 0 400px rgb(102, 37, 155) ;
+
+}
+.container .box:nth-child(2) .icon{
+     box-shadow:0 0 0 0 rgb(55, 219, 55);
+     background: rgb(55, 219, 55)
+}
+.container .box:nth-child(2):hover .icon{
+     box-shadow:0 0 0 400px rgb(55, 219, 55) ;
+
+}
+.container .box:nth-child(3) .icon{
+     box-shadow:0 0 0 0 rgb(228, 69, 49);
+     background:rgb(228, 69,49)
+     
+}
+.container .box:nth-child(3):hover .icon{
+     box-shadow:0 0 0 400px rgb(228,69,49) ;
+
+}
+.container .box .content{
+     z-index: 1;
+     position: relative;
+     transition: 0.5s;
+
+}
+.container .box:hover .content{
+     color: #ffffff;
+}
+.container .box .content h3{
+     font-size: 30px;
+     margin: 10px 0;
+     padding: 0;
+
+}
+.container .box .content p{
+     margin: 0%;
+     padding: 0;
+}
+a{
+     display: inline-block;
+     padding: 10px 20px;
+     background: #ffffff;
+     border-radius: 4px;
+     text-decoration: none;
+     color: #000000;
+     font-weight: 500;
+     margin-top: 20px;
+     box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+.container .box::before{
+     content: '';
+     position: absolute;
+     width: 50%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     background: rgba(255,255,255,.2);
+     z-index: 2;
+     pointer-events: none;
+
+}
